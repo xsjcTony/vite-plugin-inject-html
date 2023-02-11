@@ -1,4 +1,4 @@
-# vite-plugin-inject-html [![npm](https://img.shields.io/npm/v/vite-plugin-inject-html.svg)](https://npmjs.com/package/vite-plugin-inject-html)
+# vite-plugin-inject-html <a href="https://npmjs.com/package/vite-plugin-inject-html" target="_blank" rel="noreferrer">![npm package](https://img.shields.io/npm/v/vite-plugin-inject-html.svg)</a>
 
 ## Options
 
