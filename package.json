@@ -16,8 +16,8 @@
     "preinstall": "npx only-allow pnpm",
     "lint": "eslint ./packages/**/*.ts",
     "typecheck": "tsc -p packages/vite-plugin-inject-html",
-    "build": "pnpm -r --filter='./packages/*' run build",
-    "dev": "pnpm -r --parallel --filter='./packages/*' run dev"
+    "build": "pnpm -r --filter \"./packages/*\" run build",
+    "dev": "pnpm -r --parallel --filter \"./packages/*\" run dev"
   },
   "devDependencies": {
     "typescript": "^4.9.5",

@@ -1,9 +1,9 @@
-import type { TagWithoutTagName, TagWithoutTagNameAndAttributes } from '.'
+import type { ScriptTagType, NoscriptTagType } from '.'
 import type { HtmlTagDescriptor } from 'vite'
 
 
 const generateScriptTagDescriptor = (
-  scriptTag: TagWithoutTagName
+  scriptTag: ScriptTagType
 ): HtmlTagDescriptor | undefined => {
   const scriptTagDescriptor: HtmlTagDescriptor = { tag: 'script' }
 
@@ -12,17 +12,6 @@ const generateScriptTagDescriptor = (
       ...scriptTagDescriptor,
       children: scriptTag,
       injectTo: 'body'
-    }
-  }
-
-  if ('content' in scriptTag) {
-    const { content, attributes, injectTo = 'body' } = scriptTag
-
-    return {
-      ...scriptTagDescriptor,
-      children: content,
-      attrs: attributes,
-      injectTo
     }
   }
 
@@ -39,12 +28,23 @@ const generateScriptTagDescriptor = (
     }
   }
 
+  if ('children' in scriptTag) {
+    const { children, attributes, injectTo = 'body' } = scriptTag
+
+    return {
+      ...scriptTagDescriptor,
+      children,
+      attrs: attributes,
+      injectTo
+    }
+  }
+
   return
 }
 
 
 const generateNoscriptTagDescriptor = (
-  noscriptTag: TagWithoutTagNameAndAttributes
+  noscriptTag: NoscriptTagType
 ): HtmlTagDescriptor | undefined => {
   const noscriptTagDescriptor: HtmlTagDescriptor = { tag: 'noscript' }
 
@@ -53,16 +53,6 @@ const generateNoscriptTagDescriptor = (
       ...noscriptTagDescriptor,
       children: noscriptTag,
       injectTo: 'body'
-    }
-  }
-
-  if ('content' in noscriptTag) {
-    const { content, injectTo = 'body' } = noscriptTag
-
-    return {
-      ...noscriptTagDescriptor,
-      children: content,
-      injectTo
     }
   }
 
