@@ -20,7 +20,7 @@ const injectHTMLPlugin = (options: PluginOptions): Plugin => {
 
 
   return {
-    name: 'vite:inject-html-plugin',
+    name: 'vite:plugin-inject-html',
     enforce: 'pre',
     transformIndexHtml: (html) => {
       let resultHtml = html
