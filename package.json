@@ -1,0 +1,35 @@
+{
+  "name": "vite-plugin-inject-html-monorepo",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
+  "homepage": "https://github.com/xsjcTony/vite-plugin-inject-html",
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "inject",
+    "html"
+  ],
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "lint": "eslint ./packages/**/*.ts",
+    "typecheck": "tsc -p packages/vite-plugin-inject-html",
+    "build": "pnpm -r --filter='./packages/*' run build",
+    "dev": "pnpm -r --parallel --filter='./packages/*' run dev"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1",
+    "@types/node": "^18.13.0",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "eslint": "^8.34.0",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-import": "^2.27.5",
+    "rollup": "^3.15.0",
+    "unbuild": "^1.1.1"
+  },
+  "packageManager": "pnpm@7.27.0+"
+}

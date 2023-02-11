@@ -1,0 +1,38 @@
+{
+  "name": "vite-plugin-inject-html",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Tony (Aelita) Jiang",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "unbuild --stub,",
+    "build": "unbuild"
+  },
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xsjcTony/vite-plugin-inject-html.git",
+    "directory": "packages/vite-plugin-inject-html"
+  },
+  "bugs": {
+    "url": "https://github.com/xsjcTony/vite-plugin-inject-html/issues"
+  },
+  "homepage": "https://github.com/xsjcTony/vite-plugin-inject-html/tree/main/packages/vite-plugin-inject-html#readme",
+  "peerDependencies": {
+    "vite": ">=3.0.0"
+  }
+}
