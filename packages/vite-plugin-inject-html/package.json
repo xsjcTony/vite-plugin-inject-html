@@ -3,6 +3,12 @@
   "version": "1.0.1",
   "license": "MIT",
   "author": "Tony (Aelita) Jiang",
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "inject",
+    "html"
+  ],
   "files": [
     "dist"
   ],
