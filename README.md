@@ -1,9 +1,9 @@
 # Vite Plugin Inject HTML
 
-<a href="https://npmjs.com/package/vite-plugin-inject-html" target="_blank" rel="noreferrer">![npm package](https://img.shields.io/npm/v/vite-plugin-inject-html.svg)</a>
-<a href="https://nodejs.org/en/about/releases" target="_blank" rel="noreferrer">![node compatibility](https://img.shields.io/node/v/vite-plugin-inject-html.svg)</a>
+[![npm package](https://img.shields.io/npm/v/vite-plugin-inject-html.svg)](https://npmjs.com/package/vite-plugin-inject-html)
+[![node compatibility](https://img.shields.io/node/v/vite-plugin-inject-html.svg)](https://nodejs.org/en/about/releases)
 
-See [`vite-plugin-inject-html` documentation](packages/vite-plugin-inject-html/README.md)
+See [`vite-plugin-inject-html` documentation](https://docs.aelita.me/docs/vite-plugin-inject-html.html)
 
 ## Packages
 
