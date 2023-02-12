@@ -1,3 +1,9 @@
+## 1.0.3 (2023-02-12)
+
+* chore: update documentation ([8070820](https://github.com/xsjcTony/vite-plugin-inject-html/commit/8070820))
+
+
+
 ## 1.0.2 (2023-02-11)
 
 * chore: Update "keywords" ([8e75175](https://github.com/xsjcTony/vite-plugin-inject-html/commit/8e75175))
