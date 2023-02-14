@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-inject-html",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "author": "Tony (Aelita) Jiang",
   "keywords": [
@@ -37,7 +37,7 @@
   "bugs": {
     "url": "https://github.com/xsjcTony/vite-plugin-inject-html/issues"
   },
-  "homepage": "https://github.com/xsjcTony/vite-plugin-inject-html/tree/main/packages/vite-plugin-inject-html#readme",
+  "homepage": "https://docs.aelita.me/docs/vite-plugin-inject-html.html",
   "peerDependencies": {
     "vite": ">=3.0.0"
   }
