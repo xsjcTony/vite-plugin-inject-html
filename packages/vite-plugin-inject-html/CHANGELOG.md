@@ -1,3 +1,9 @@
+## 1.0.5 (2023-02-15)
+
+- chore: update package homepage
+- chore: change vite peerDependency version from `>=3.0.0` to `>=2.0.0`
+
+
 ## 1.0.4 (2023-02-14)
 
 * chore: update documentation ([283ee9f](https://github.com/xsjcTony/vite-plugin-inject-html/commit/283ee9f))

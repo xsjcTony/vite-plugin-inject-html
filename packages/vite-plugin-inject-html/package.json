@@ -39,6 +39,6 @@
   },
   "homepage": "https://docs.aelita.me/docs/vite-plugin-inject-html.html",
   "peerDependencies": {
-    "vite": ">=3.0.0"
+    "vite": ">=2.0.0"
   }
 }
