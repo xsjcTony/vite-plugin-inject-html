@@ -110,4 +110,4 @@ const injectHTMLPlugin = (options: PluginOptions): Plugin => {
 export default injectHTMLPlugin
 
 
-export * from './types'
+export type * from './types'

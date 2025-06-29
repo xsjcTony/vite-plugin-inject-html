@@ -1,3 +1,12 @@
+## 2.0.0 (2025-06-29)
+
+- chore!: minimum Vite version is now `4.0.0`
+- chore!: minimum Node.js version is now `18.0.0`
+
+
+---
+
+
 ## 1.0.5 (2023-02-15)
 
 - chore: update package homepage
