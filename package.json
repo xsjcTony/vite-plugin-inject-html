@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": "^14.18.0 || >=16.0.0"
+    "node": ">=16.0.0"
   },
   "homepage": "https://github.com/xsjcTony/vite-plugin-inject-html",
   "keywords": [
